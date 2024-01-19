@@ -1,0 +1,8 @@
+alive_progress==3.1.4
+requests==2.25.1
+rich==13.7.0
+colorama
+questionary
+pyfiglet
+prompt_toolkit
+prompt_alive

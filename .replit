@@ -1,0 +1,13 @@
+modules = ["go-1.21:v2-20231201-3b22c78", "python-3.10:v25-20230920-d4ad2e4"]
+run = "./ssl -input vulnivanti.txt -output vuldo.txt"
+
+[nix]
+channel = "stable-23_05"
+
+[gitHubImport]
+requiredFiles = [".replit"]
+
+[deployment]
+run = ["sh", "-c", "ssl_explorer -h"]
+ignorePorts = false
+deploymentTarget = "gce"
