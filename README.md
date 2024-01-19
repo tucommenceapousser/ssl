@@ -3,6 +3,8 @@
 ## Description
 🔍 ssl_explorer is a tool designed for cybersecurity professionals and ethical hackers. It streamlines the extraction of SSL/TLS certificate information from specified URLs, crucial for target reconnaissance in security assessments and penetration testing.
 
+Thx to Choca for this awesome tool, good job my friends
+
 ## Features
 - 🔐 Extracts SSL/TLS certificate information from URLs.
 - 📁 Supports processing multiple URLs via an input file.
